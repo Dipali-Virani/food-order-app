@@ -1,0 +1,39 @@
+.meallist{
+    border-bottom: 1px groove rgba(158, 123, 123, 0.288);
+    color: rgb(241, 241, 241);
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin: 2.5rem 0;
+}
+
+.meals{
+    display: flex;
+    flex-direction: column;
+    gap: 0.1rem;
+    padding: 0.5rem 0;
+}
+
+.mealname h2{
+    margin: 0;
+    font-size: 1.27rem;
+    letter-spacing: 0.08rem;
+    font-weight: 500;
+}
+
+.meal-data{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    font-size: 0.89rem;
+}
+
+.meal-desc{
+    letter-spacing: 0.02rem;
+}
+
+.meal-price{
+    color: white;
+    font-weight: bold;
+}

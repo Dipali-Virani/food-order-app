@@ -1,0 +1,95 @@
+.backdrop{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 3;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.671);
+    backdrop-filter: blur(4px);
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.modal{
+    position: fixed;
+    top: 20%;
+    left: 20%;
+    z-index: 4;
+    width: 50%;
+    height:fit-content; 
+    overflow: hidden;
+    margin: auto auto;
+    display: block;
+    padding: 2rem;
+}
+
+.cartlist{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    margin: 0;
+    padding: 0;
+    gap: 2rem;
+    color: rgba(240, 240, 240, 0.932);
+    overflow-y: auto;
+    scroll-behavior: smooth;
+    scrollbar-width: thin;
+    height: 30vh;
+}
+
+.total-price{
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 0;
+    justify-content: space-between;
+    align-items: end;
+    gap: 1rem;
+    color: rgb(241, 241, 241);
+    font-size: larger;
+}
+
+.action{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 1rem
+}
+
+.close{
+    padding: 0.8rem 1.5rem;
+    background-color: transparent;
+    border: 2px solid rgba(204, 167, 132, 0.808);
+    box-shadow: none;
+    border-radius: 4rem;
+    font-size: 0.89rem;
+    letter-spacing: 0.015rem;
+    cursor: pointer;
+    color: rgba(231, 202, 176, 0.808);
+    transition: all 1ms ease-in-out;
+}
+
+.close:hover{
+    background-color: rgba(204, 167, 132, 0.808);
+    color: rgba(218, 218, 218, 0.918);
+    border: 2px solid rgba(204, 167, 132, 0.808);
+}
+
+.order{
+    padding: 0.8rem 1.5rem;
+    color: rgb(15, 15, 15);
+    background-color: rgba(231, 202, 176, 0.808);
+    border: none;
+    font-size: 0.89rem;
+    letter-spacing: 0.015rem;
+    backdrop-filter: blur(1rem);
+    transition: all 1ms ease-in-out;
+    cursor: pointer;
+    border-radius: 4rem;
+}
+
+.order:hover{
+    background-color: rgba(204, 167, 132, 0.808);
+    color: rgba(218, 218, 218, 0.918);
+}

@@ -1,0 +1,8 @@
+.card{
+   border-radius: 1rem;
+   background-color: rgba(87, 25, 1, 0.925);
+   width: 90vh;
+   margin: 5rem auto;
+   padding: 10px 20px;
+   box-sizing: border-box;
+}

@@ -1,0 +1,28 @@
+.button{
+    display: flex;
+    gap: 10px;
+    padding: 10px 20px;
+    border-radius: 6rem;
+    background-color:rgba(0, 0, 0, 0.308);
+    border:none;
+    color: white;
+    justify-content: space-around;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: inset 3px 5px 20px rgba(3, 3, 3, 0.205), inset -1px -1px 6px rgba(255, 255, 255, 0.171);
+}
+
+.button:hover{
+    box-shadow: inset 3px 5px 20px rgba(34, 34, 34, 0.205), inset -1px -1px 6px rgba(0, 0, 0, 0.171);
+}
+
+.button-text{
+    font-size: 1.05em;
+    letter-spacing: 0.1rem;
+}
+
+.bedge{
+    background-color: brown;
+    padding: 5px;
+    border-radius: 100%;
+}
