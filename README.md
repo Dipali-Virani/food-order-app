@@ -1,3 +1,51 @@
+# Food Order App (React)
+
+A simple **Food Order Application** built using **React.js** as part of learning and practicing core React concepts.  
+The app allows users to browse food items, add them to a cart, adjust quantities, and place an order through a clean and interactive UI.
+
+This project focuses on understanding **React fundamentals** and building a real-world styled application.
+
+---
+
+## Features
+
+- Display list of available meals
+- Add/remove items from cart
+- Dynamic cart total calculation
+- Modal-based cart UI
+- Reusable and modular React components
+- State and props based UI updates
+
+---
+
+## Tech Stack
+
+- **React.js**
+- **JavaScript (ES6+)**
+- **HTML5**
+- **CSS3**
+
+---
+
+## Learning Source & Credits
+
+This project was created by following the **React – The Complete Guide** course by **Academind**.
+
+- **Original Course Code Repository:**  
+  https://github.com/academind/react-complete-guide-code/tree/11-practice-food-order-app
+
+- **Instructor:**  
+  Maximilian Schwarzmüller (Academind)
+
+The code and structure are based on the course material and were implemented **strictly for learning and practice purposes** to better understand React concepts such as:
+- Component composition
+- State management
+- Props drilling
+- Conditional rendering
+- UI logic handling
+
+---
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
